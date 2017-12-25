@@ -1,3 +1,4 @@
+var git = "My first change";
 var comm = require("comm");
 cc.Class({
     extends: cc.Component,
