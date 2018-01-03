@@ -1,3 +1,2 @@
 # learngit
-origin fenzhi change.
-origin change.
+local branch change.
