@@ -1,0 +1,37 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "shellAnim",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 1.0166666666666666,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "c1d37dc3-8e9b-40af-aa62-767774a83189"
+            }
+          },
+          {
+            "frame": 0.5,
+            "value": {
+              "__uuid__": "717e22a5-5f72-4a74-aceb-278986db25ed"
+            }
+          },
+          {
+            "frame": 1,
+            "value": {
+              "__uuid__": "b4e05589-ceff-4592-abd4-a422a5454ae6"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}

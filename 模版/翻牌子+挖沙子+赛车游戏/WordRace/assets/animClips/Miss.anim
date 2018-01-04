@@ -1,0 +1,82 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "Miss",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 0.9,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "props": {
+      "opacity": [
+        {
+          "frame": 0,
+          "value": 0
+        },
+        {
+          "frame": 0.2833333333333333,
+          "value": 255
+        },
+        {
+          "frame": 0.5666666666666667,
+          "value": 255
+        },
+        {
+          "frame": 0.8833333333333333,
+          "value": 0
+        }
+      ],
+      "scaleX": [
+        {
+          "frame": 0,
+          "value": 1.18,
+          "curve": "linear"
+        },
+        {
+          "frame": 0.8833333333333333,
+          "value": 2.06
+        }
+      ],
+      "scaleY": [
+        {
+          "frame": 0,
+          "value": 1.18,
+          "curve": "linear"
+        },
+        {
+          "frame": 0.8833333333333333,
+          "value": 2.06
+        }
+      ],
+      "position": [
+        {
+          "frame": 0,
+          "value": [
+            3,
+            -19
+          ]
+        }
+      ]
+    },
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "b31ce4ba-2ce2-41be-86b0-e614202bd312"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": [
+    {
+      "frame": 0.9,
+      "func": "showFeedbackFinish",
+      "params": []
+    }
+  ]
+}

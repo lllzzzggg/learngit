@@ -1,0 +1,122 @@
+[
+  {
+    "areaid" : null,
+    "videoUrl" : null,
+    "questionid" : 1743175,
+    "knowledgepointid" : 110851,
+    "examCount" : null,
+    "id" : null,
+    "areacode" : "010",
+    "questiontypeid" : 58,
+    "state" : null,
+    "downloadCount" : null,
+    "collectionCount" : null,
+    "questions" : null,
+    "handoutQuestionTagName" : null,
+    "orderid" : 1,
+    "useMathjax" : null,
+    "yearname" : 2017,
+    "departmentgradeid" : "15",
+    "handoutQuestionTag" : null,
+    "videoId" : null,
+    "optionTag" : null,
+    "yearId" : null,
+    "quescontimgHeight" : [],
+    "optionandanswers" : [
+      {
+        "analysis" : "",
+        "id" : null,
+        "options" : [
+          {
+            "id" : null,
+            "optionno" : "1",
+            "optioncontent" : null,
+            "optioncontimg" : null,
+            "convertOptioncontent" : null,
+            "optioncontimgHeight" : null,
+            "optioncontimgWidth" : null
+          }
+        ],
+        "analysisimgWidth" : null,
+        "rightanswerimgWidth" : null,
+        "rightanswerimgHeight" : null,
+        "rightanswerimg" : null,
+        "analysisimgHeight" : null,
+        "convertRightanswer" : null,
+        "rightanswer" : "",
+        "convertAnalysis" : null,
+        "analysisimg" : null
+      }
+    ],
+    "quescontimg" : [],
+    "provenance" : null,
+    "interactiveJson" : {
+      "answerArr" : [
+        "ter",
+        "ower",
+        "ing",
+        "un",
+        "ck",
+        "ee",
+        "ade",
+        "tain",
+        "ver"
+      ],
+      "introduce" : "http:\/\/localhost\/bingoGame\/introduce.mp3",
+      "soundArr" : [
+        "http:\/\/localhost\/bingoGame\/water.mp3",
+        "http:\/\/localhost\/bingoGame\/flower.mp3",
+        "http:\/\/localhost\/bingoGame\/painting.mp3",
+        "http:\/\/localhost\/bingoGame\/sun.mp3",
+        "http:\/\/localhost\/bingoGame\/clock.mp3",
+        "http:\/\/localhost\/bingoGame\/tree.mp3",
+        "http:\/\/localhost\/bingoGame\/lemonade.mp3",
+        "http:\/\/localhost\/bingoGame\/mountain.mp3",
+        "http:\/\/localhost\/bingoGame\/river.mp3"
+      ],
+      "image" : [
+        "waterP.png",
+        "flowerP.png",
+        "paintingP.png",
+        "sunP.png",
+        "clockP.png",
+        "treeP.png",
+        "lemonadeP.png",
+        "mountainP.png",
+        "riverP.png"
+      ],
+      "questionArr" : [
+        "wa___",
+        "fl____",
+        "paint___",
+        "s__",
+        "clo__",
+        "tr__",
+        "lemon___",
+        "moun____",
+        "ri___"
+      ]
+    },
+    "areaname" : "北京市",
+    "username" : null,
+    "groupCount" : null,
+    "quesCategoryId" : null,
+    "departmentgradename" : "小学一年级",
+    "qescont" : "<span>Bingo<\/span>",
+    "quescategoryname" : null,
+    "belongPaperIds" : null,
+    "questiontypename" : "选择题",
+    "createTime" : null,
+    "uploadTime" : null,
+    "difficultyid" : 1,
+    "subjectid" : null,
+    "convertQescont" : null,
+    "updatetime" : 1495165386,
+    "knowledgepointname" : [
+      "方向（小低）"
+    ],
+    "interactiveUrl" : null,
+    "userId" : null,
+    "quescontimgWidth" : []
+  }
+]

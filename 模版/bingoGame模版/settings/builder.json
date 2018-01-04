@@ -1,0 +1,26 @@
+{
+  "appKey": "",
+  "appSecret": "",
+  "excludeScenes": [],
+  "includeAnySDK": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.ZhuoXiaoYu",
+  "privateKey": "",
+  "renderMode": "1",
+  "startScene": "c0e4e3a0-b011-41b6-82d6-c31f202631fe",
+  "title": "BingoGame",
+  "webOrientation": "auto",
+  "jailbreakPlatform": false
+}

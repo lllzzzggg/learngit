@@ -1,0 +1,66 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "Tree8",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 1.6,
+  "sample": 25,
+  "speed": 1,
+  "wrapMode": 2,
+  "curveData": {
+    "props": {
+      "position": [
+        {
+          "frame": 0,
+          "value": [
+            908,
+            -420
+          ],
+          "curve": "cubicIn",
+          "motionPath": []
+        },
+        {
+          "frame": 1.6,
+          "value": [
+            -144,
+            -1345
+          ],
+          "motionPath": []
+        }
+      ],
+      "scaleX": [
+        {
+          "frame": 0,
+          "value": 0.44,
+          "curve": "cubicIn"
+        },
+        {
+          "frame": 1.6,
+          "value": 1
+        }
+      ],
+      "scaleY": [
+        {
+          "frame": 0,
+          "value": 0.44,
+          "curve": "cubicIn"
+        },
+        {
+          "frame": 1.6,
+          "value": 1
+        }
+      ],
+      "opacity": [
+        {
+          "frame": 0,
+          "value": 0
+        },
+        {
+          "frame": 0.6,
+          "value": 255
+        }
+      ]
+    }
+  },
+  "events": []
+}
