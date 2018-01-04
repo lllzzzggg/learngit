@@ -1,0 +1,49 @@
+
+
+    "interactiveJson" : {
+      "answerArr" : [ //每小题音答案
+        "ter",
+        "ower",
+        "ing",
+        "un",
+        "ck",
+        "ee",
+        "ade",
+        "tain",
+        "ver"
+      ],
+      "introduce" : "http:\/\/localhost\/bingoGame\/introduce.mp3", //背景音乐
+      "soundArr" : [  // 每小题音频地址
+        "http:\/\/localhost\/bingoGame\/water.mp3",
+        "http:\/\/localhost\/bingoGame\/flower.mp3",
+        "http:\/\/localhost\/bingoGame\/painting.mp3",
+        "http:\/\/localhost\/bingoGame\/sun.mp3",
+        "http:\/\/localhost\/bingoGame\/clock.mp3",
+        "http:\/\/localhost\/bingoGame\/tree.mp3",
+        "http:\/\/localhost\/bingoGame\/lemonade.mp3",
+        "http:\/\/localhost\/bingoGame\/mountain.mp3",
+        "http:\/\/localhost\/bingoGame\/river.mp3"
+      ],
+      "image" : [ //每小题图片
+        "water.png",
+        "flower.png",
+        "painting.png",
+        "sun.png",
+        "clock.png",
+        "tree.png",
+        "lemonade.png",
+        "mountain.png",
+        "river.png"
+      ],
+      "questionArr" : [ //每小题问题
+        "wa",
+        "fl",
+        "paint",
+        "s",
+        "clo",
+        "tr",
+        "lemon",
+        "moun",
+        "ri"
+      ]
+    }

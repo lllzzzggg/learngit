@@ -1,0 +1,37 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "Over_Right_Hand",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 0.92,
+  "sample": 25,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "props": {
+      "rotation": [
+        {
+          "frame": 0,
+          "value": -34
+        },
+        {
+          "frame": 0.32,
+          "value": 24
+        },
+        {
+          "frame": 0.52,
+          "value": -1
+        },
+        {
+          "frame": 0.72,
+          "value": 24
+        },
+        {
+          "frame": 0.92,
+          "value": -1
+        }
+      ]
+    }
+  },
+  "events": []
+}

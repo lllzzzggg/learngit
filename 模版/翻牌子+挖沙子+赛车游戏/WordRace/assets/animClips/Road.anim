@@ -1,0 +1,31 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "Road",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 0.08,
+  "sample": 25,
+  "speed": 1,
+  "wrapMode": 2,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "e59d59b4-18b6-4381-9b17-ae3eb55ae742"
+            }
+          },
+          {
+            "frame": 0.04,
+            "value": {
+              "__uuid__": "c81ae331-fe2a-4b86-813a-ba065915946e"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}

@@ -1,0 +1,33 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "sea",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 3.75,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "props": {
+      "y": [
+        {
+          "frame": 0,
+          "value": -1444
+        },
+        {
+          "frame": 1.2666666666666666,
+          "value": -131
+        },
+        {
+          "frame": 1.6166666666666667,
+          "value": -104
+        },
+        {
+          "frame": 3.75,
+          "value": -1074
+        }
+      ]
+    }
+  },
+  "events": []
+}

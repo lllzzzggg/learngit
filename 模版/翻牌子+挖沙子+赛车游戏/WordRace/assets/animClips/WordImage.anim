@@ -1,0 +1,80 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "WordImage",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 1.6666666666666667,
+  "sample": 30,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "props": {
+      "position": [
+        {
+          "frame": 0,
+          "value": [
+            20,
+            350
+          ],
+          "curve": "cubicIn"
+        },
+        {
+          "frame": 1.6666666666666667,
+          "value": [
+            0,
+            -500
+          ]
+        }
+      ],
+      "scaleX": [
+        {
+          "frame": 0,
+          "value": 0.24,
+          "curve": "cubicIn"
+        },
+        {
+          "frame": 1.6666666666666667,
+          "value": 1.5
+        }
+      ],
+      "scaleY": [
+        {
+          "frame": 0,
+          "value": 0.24,
+          "curve": "cubicIn"
+        },
+        {
+          "frame": 1.6666666666666667,
+          "value": 1.5
+        }
+      ],
+      "opacity": [
+        {
+          "frame": 0,
+          "value": 0
+        },
+        {
+          "frame": 0.5,
+          "value": 255,
+          "curve": "constant"
+        },
+        {
+          "frame": 1.5,
+          "value": 127.5,
+          "curve": "constant"
+        },
+        {
+          "frame": 1.6666666666666667,
+          "value": 0
+        }
+      ]
+    }
+  },
+  "events": [
+    {
+      "frame": 1.5,
+      "func": "animFinish",
+      "params": []
+    }
+  ]
+}

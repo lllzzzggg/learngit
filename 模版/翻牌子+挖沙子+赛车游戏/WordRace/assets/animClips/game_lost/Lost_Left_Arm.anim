@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "Lost_Left_Arm",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 0.48,
+  "sample": 25,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "props": {
+      "rotation": [
+        {
+          "frame": 0,
+          "value": 11
+        },
+        {
+          "frame": 0.16,
+          "value": 11
+        },
+        {
+          "frame": 0.48,
+          "value": -9
+        }
+      ]
+    }
+  },
+  "events": []
+}

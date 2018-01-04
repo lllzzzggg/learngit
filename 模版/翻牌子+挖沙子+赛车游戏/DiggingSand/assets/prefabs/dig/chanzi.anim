@@ -1,0 +1,128 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "chanzi",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 0.58,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "props": {
+      "x": [],
+      "y": [],
+      "rotation": []
+    },
+    "paths": {
+      "chanzi": {
+        "props": {
+          "x": [
+            {
+              "frame": 0,
+              "value": 667
+            },
+            {
+              "frame": 0.16666666666666666,
+              "value": 701
+            },
+            {
+              "frame": 0.35,
+              "value": 750
+            },
+            {
+              "frame": 0.5666666666666667,
+              "value": 667
+            }
+          ],
+          "y": [
+            {
+              "frame": 0,
+              "value": 941
+            },
+            {
+              "frame": 0.16666666666666666,
+              "value": 818
+            },
+            {
+              "frame": 0.35,
+              "value": 864
+            },
+            {
+              "frame": 0.5666666666666667,
+              "value": 941
+            }
+          ],
+          "rotation": [
+            {
+              "frame": 0,
+              "value": 74
+            },
+            {
+              "frame": 0.16666666666666666,
+              "value": 74
+            },
+            {
+              "frame": 0.35,
+              "value": -34
+            },
+            {
+              "frame": 0.5666666666666667,
+              "value": 74
+            }
+          ]
+        }
+      },
+      "shazi01": {
+        "comps": {
+          "cc.Sprite": {
+            "spriteFrame": [
+              {
+                "frame": 0,
+                "value": null
+              },
+              {
+                "frame": 0.3333333333333333,
+                "value": {
+                  "__uuid__": "1e2ae4f5-3654-4d98-8475-475a0e3335fc"
+                }
+              },
+              {
+                "frame": 0.43333333333333335,
+                "value": {
+                  "__uuid__": "20f51811-e996-4b80-bc56-103392533489"
+                }
+              },
+              {
+                "frame": 0.5666666666666667,
+                "value": {
+                  "__uuid__": "1bd11ab0-31fe-4e31-9ff6-ff416b121a9a"
+                }
+              }
+            ]
+          }
+        },
+        "props": {
+          "x": [
+            {
+              "frame": 0,
+              "value": 854
+            },
+            {
+              "frame": 0.35,
+              "value": 829
+            },
+            {
+              "frame": 0.43333333333333335,
+              "value": 894
+            },
+            {
+              "frame": 0.5666666666666667,
+              "value": 928
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

@@ -1,0 +1,31 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "Lost_Header",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 0.28,
+  "sample": 25,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "props": {
+      "position": [
+        {
+          "frame": 0,
+          "value": [
+            546,
+            -417
+          ]
+        },
+        {
+          "frame": 0.28,
+          "value": [
+            610,
+            -478
+          ]
+        }
+      ]
+    }
+  },
+  "events": []
+}
