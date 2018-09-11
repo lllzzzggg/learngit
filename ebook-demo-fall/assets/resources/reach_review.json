@@ -1,0 +1,177 @@
+{
+  "config":{
+    "server":"ReachCL01",
+    "imgs":[],
+    "review":true
+  },
+  "pages":[
+    {
+        "game":"page_1",
+        "prefab":"cover",
+        "imgs":[
+          {"img":"cover.jpg"}
+        ],
+        "title":{
+          "text":"Quinito's Neighborhood (part 1)",
+          "author":"Ina Cumpiano"
+        }
+    },
+    {
+      "game":"page_5",
+      "prefab":"reread",
+      "image":"/img/neighborhood.jpg",
+      "audio":"/audio/neighborhood.mp3",
+      "audioTime":2,
+      "readTime":5,
+      "texts":[
+        {"read_text":"neighborhood"},
+        {"example_text":"This is a example sentence,neighborhood is the word we to learn."}
+      ]
+    },
+    {
+      "game":"page_5",
+      "prefab":"reread",
+      "image":"/img/Read_P05.jpg",
+      "audio":"/audio/Audio_P05.mp3",
+      "audioTime":8,
+      "readTime":10,
+      "texts":[
+        {"read_text":"Quinito Neighborhood My mami is a carpenter. My papi is a nurse."},
+        {"example_text":"This is a example sentence,neighborhood is the word we to learn."}
+      ]
+    },
+    {
+      "game":"page_2",
+      "prefab":"part",
+      "readAudio":"res/raw-assets/resources/pages/part/audio/Part1.mp3",
+      "partNum":"1",
+      "img":"pages/part/part1.png"
+    },
+    {
+      "game":"page_25",
+      "prefab":"drag",
+      "mode":"order",
+      "readAudio":"audio/bear.mp3",
+      "read_text":"Bear at work is as busy as can be, bringing lots of surprises to you and to me.",
+      "drags":{
+        "grooves":["","","","","",""],
+        "pictures":[
+          {
+            "img":"abuelo",
+            "target":"1"
+          },
+          {
+            "img":"dancingteacher",
+            "target":"3"
+          },
+          {
+            "img":"carpenter",
+            "target":"5"
+          },
+          {
+            "img":"abuelo",
+            "target":"4"
+          },
+          {
+            "img":"dancingteacher",
+            "target":"0"
+          },
+          {
+            "img":"carpenter",
+            "target":"2"
+          }
+        ]
+      }
+
+    },
+    {
+      "game":"page_3",
+      "prefab":"choice_look",
+      "audio":"/Audio_P03.mp3",
+      "right":"a teacher",
+      "rightTime":2,
+      "question":"What is his job?",
+      "background":"",
+      "look":"/Question_P03.jpg",
+      "selection":["a teacher","a policeman","a carpenter"]
+    },
+    {
+      "game":"page_3",
+      "prefab":"choice_look_many",
+      "audio":"/Audio_P03.mp3",
+      "right":["a teacher","a policeman"],
+      "rightTime":2,
+      "question":"What is his job? Answers are teacher and policeman",
+      "background":"",
+      "look":"/Question_P03.jpg",
+      "selection":["a teacher","a policeman","a carpenter"]
+    },
+    {
+      "game":"page_4",
+      "prefab":"part",
+      "readAudio":"res/raw-assets/resources/pages/part/audio/Part2.mp3",
+      "partNum":"2",
+      "img":"pages/part/part2.png"
+    },
+    {
+      "game":"page_13",
+      "prefab":"choice_listen",
+      "audio":"/audio/Audio_P13.mp3",
+      "right":"Choice_B",
+      "rightTime":3,
+      "question":"This is a beautiful neighborhood.",
+      "background":"",
+      "ifShow":false,
+      "selection":["Choice_A","Choice_B","Choice_C"]
+    },
+    {
+      "game":"page_12",
+      "prefab":"choice_listen_many",
+      "audio":"/audio/Audio_P12.mp3",
+      "right":["Choice_A","Choice_D"],
+      "rightTime":3,
+      "question":"Who are Quinito's tía and tío?",
+      "background":"",
+      "ifShow":false,
+      "selection":["Choice_A","Choice_B","Choice_C","Choice_D"]
+    },
+    {
+      "game":"page_13",
+      "prefab":"part",
+      "readAudio":"res/raw-assets/resources/pages/part/audio/Part3.mp3",
+      "partNum":"3",
+      "img":"pages/part/part3.png"
+    },
+    {
+      "game":"page_5",
+      "prefab":"reread",
+      "image":"/img/neighborhood.jpg",
+      "audio":"/audio/neighborhood.mp3",
+      "audioTime":2,
+      "readTime":5,
+      "texts":[
+        {"read_text":"neighborhood"},
+        {"example_text":"This is a example sentence,neighborhood is the word we to learn."}
+      ]
+    },
+    {
+      "game":"page_5",
+      "prefab":"reread",
+      "image":"/img/Read_P05.jpg",
+      "audio":"/audio/Audio_P05.mp3",
+      "audioTime":8,
+      "readTime":10,
+      "texts":[
+        {"read_text":"Quinito Neighborhood My mami is a carpenter. My papi is a nurse."},
+        {"example_text":"This is a example sentence,neighborhood is the word we to learn."}
+      ]
+    },
+    
+    {
+      "game":"page_25",
+      "prefab":"end"
+    }
+  ]
+}
+
+

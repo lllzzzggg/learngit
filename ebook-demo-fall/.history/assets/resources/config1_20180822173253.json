@@ -1,0 +1,77 @@
+{
+    "config": {
+        "server": "M_Rev_ReachD_Demo",
+        "imgs": [],
+        "review": true,
+        "preview_TS": false
+    },
+    "pages": [
+        {
+            "game": "P00",
+            "prefab": "drag_multiple",
+            "type": "img",
+            "title": {
+                "text": "Yet these odd couples live together. This is called a symbiotic relationship.",
+                "center":"This is a center message in center node."
+            },
+            "grooves":[
+                {
+                    "content":"",
+                    "tip": "symbiotic relationship"
+                },
+                {
+                    "content": "",
+                    "tip": "Yet these odd"
+                }，
+                {
+                    "content": "",
+                    "tip": "Yet these odd"
+                }，
+                
+                {
+                    "content": "",
+                    "tip": "Yet these odd"
+                }
+            ],
+            "drags":[
+                {
+                    "content": "pic2",
+                    "target": ""
+                },
+                {
+                    "content": "pic4",
+                    "target": ""
+                },
+                {
+                    "content": "",
+                    "target": ""
+                },
+                {
+                    "content": "",
+                    "target": ""
+                },
+                {
+                    "content": "pic4",
+                    "target": ""
+                }, {
+                    "content": "",
+                    "target": ""
+                }, {
+                    "content": "pic4",
+                    "target": ""
+                },
+                {
+                    "content": "pic2",
+                    "target": ""
+                },
+                {
+                    "content": "pic3",
+                    "target": ""
+                }
+
+            ]
+           
+        }
+             
+    ]
+}

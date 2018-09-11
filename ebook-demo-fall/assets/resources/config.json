@@ -1,0 +1,156 @@
+{
+  "config":{
+    "server":"test_Preview",
+    "imgs":[],
+    "review":false,
+    "preview_TS":false
+  },
+  "pages":[
+    {
+        "game":"P01",
+        "prefab":"cover",
+        "imgs":[
+          {"img":"Cover_Schooltools.jpg"}
+        ],
+        "title":{
+          "text":"School Tools",
+          "author":""
+        }
+    },
+    {
+      "game":"P02",
+      "prefab":"part",
+      "readAudio":"audio_PART_1.mp3",
+      "partNum":"1",
+      "title":"Let's Learn",
+      "img":"pages/part/part1.png"
+    },
+    {
+      "game":"P42",
+      "prefab":"reread",
+      "image":"/img/question_P42.jpg",
+      "audio":"/audio/Question_P42.mp3",
+      "audioTime":2,
+      "readTime":5,
+      "texts":[
+        {"read_text":"This is example."},
+        {"example_text":"This is a example sentence,neighborhood is the word we to learn."}
+      ]
+    },  
+    {
+      "game":"P31",
+      "prefab":"choice_sentence_many",
+      "audio":"/audio/Question_P31.mp3",
+      "right":["A","B"],
+      "rightTime":3,
+      "question":"What do you use at school?",
+      "image":"/img/question_p31.jpg",
+      "selection":[
+        ["A. in the park ","A"],
+        ["B. in the kitchen ","B"],
+        ["C. on the bus ","C"],
+        ["D. on the bus ","D"]
+      ]
+  },
+    {
+      "game":"P10",
+      "prefab":"choice_words_many",
+      "audio":"/audio/Audio_P10.mp3",
+      "right":["B","A"],
+      "rightTime":3,
+      "question":"Where do the boy and his Papá cook? Look and choose.",
+      "selection":[
+        ["Choice_A","A. in the park ","A"],
+        ["Choice_B","B. in the kitchen ","B"],
+        ["Choice_C","C. on the bus ","C"],
+        ["Choice_C","C. on the bus ","C"]
+      ]
+    }, 
+
+    {
+      "game":"P41",
+      "prefab":"choice_look",
+      "audio":"/audio/Audio_P41.mp3",
+      "right":"a pencil",
+      "rightTime":2,
+      "question":"What do you see?",
+      "look":"/img/Question_P41.jpg",
+      "selection":["the pencils","pencils","a pencil"]
+    },
+    {
+      "game":"P43",
+      "prefab":"choice_look_many",
+      "audio":"/audio/Question_P43.mp3",
+      "right":["a book","the books"],
+      "rightTime":2,
+      "question":"What do you see?",
+      "look":"/img/Question_p43.jpg",
+      "selection":["a pencil","a book","the books"]
+    },
+    {
+      "game":"P46",
+      "prefab":"choice_listen",
+      "audio":"/audio/Audio_P46.mp3",
+      "right":"Choice_C",
+      "rightTime":3,
+      "question":"These are tools.",
+      "ifShow":false,
+      "selection":["Choice_A","Choice_B","Choice_C"]
+  },
+  {
+    "game":"P33",
+    "prefab":"choice_sentence",
+    "audio":"/audio/Question_P33.mp3",
+    "right":"A",
+    "rightTime":3,
+    "question":"What do you use at school?",
+    "background":"",
+    "image":"/img/question_p33.jpg",
+    "selection":[
+      ["A. in the park ","A"],
+      ["B. in the kitchen ","B"],
+      ["C. on the bus ","C"],
+      ["D. on the bus ","D"]
+    ]
+},
+{
+  "game":"P08",
+  "prefab":"choice_words",
+  "audio":"/audio/Audio_P08.mp3",
+  "right":"B",
+  "rightTime":3,
+  "question":"Where do the boy and his Papá cook? Look and choose.",
+  "background":"",
+  "selection":[
+    ["Choice_A","A. in the park ","A"],
+    ["Choice_B","B. in the kitchen ","B"],
+    ["Choice_C","C. on the bus ","C"],
+    ["Choice_C","C. on the bus ","C"]
+  ]
+}, 
+    {
+      "game":"P44",
+      "prefab":"choice_listen_many",
+      "audio":"/audio/Question_P44.mp3",
+      "right":["Choice_A","Choice_C"],
+      "rightTime":3,
+      "question":"I see a _______.",
+      "selection":["Choice_A","Choice_B","Choice_C"]
+    },
+    {
+      "game":"P99",
+      "prefab":"learnWord_preview",
+      "word":"carpenter",
+      "image":"/img/carpenter.jpg",
+      "audio":"/audio/carpenter.mp3",
+      "audioTime":2,
+      "example":"This is a example sentence, carpenter is the word we to learn."
+      },
+    {
+      "game":"P47",
+      "prefab":"end"
+    }
+  ]
+}
+
+

@@ -1,0 +1,43 @@
+{
+  "config":{
+    "server":"ReachCL01",
+    "imgs":[],
+    "review":false,
+    "preview_TS":true
+  },
+  "pages":[
+    {
+        "game":"page_1",
+        "prefab":"cover",
+        "imgs":[
+          {"img":"cover.jpg"}
+        ],
+        "title":{
+          "text":"Quinito's Neighborhood (part 1)",
+          "author":"Ina Cumpiano"
+        }
+    },
+    {
+      "game": "page_2",
+      "prefab": "read",
+      "timeout": 3,
+      "imgs": [{
+        "pane": "Read_P03.jpg"
+      }],
+      "audios": [{
+        "readAudio": "Audio_P03.mp3",
+        "time": 3
+      }],
+      "texts": [{
+        "read_text": "I go to school."
+      }],
+      "words": ["school", "tool", "home", "name"]
+    },
+    {
+      "game":"page_25",
+      "prefab":"end"
+    }
+  ]
+}
+
+

@@ -1,0 +1,30 @@
+{
+  "cocos-analytics": {
+    "appID": "668712866",
+    "appSecret": "80ed50d70d15cd2ea3e8ef4eaaf3d1f2",
+    "channel": "ebook-demo",
+    "enable": true,
+    "version": "1.0.0"
+  },
+  "collision-matrix": [
+    [
+      true
+    ]
+  ],
+  "design-resolution-height": 1536,
+  "design-resolution-width": 2048,
+  "excluded-modules": [],
+  "fit-height": true,
+  "fit-width": false,
+  "group-list": [
+    "default"
+  ],
+  "simulator-orientation": false,
+  "simulator-resolution": {
+    "height": 640,
+    "width": 960
+  },
+  "use-customize-simulator": false,
+  "use-project-simulator-setting": false,
+  "start-scene": "current"
+}

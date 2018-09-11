@@ -1,0 +1,117 @@
+{
+  "config":{
+    "server":"ReachCL01",
+    "imgs":[],
+    "review":false,
+    "preview_TS":true
+  },
+  "pages":[
+    {
+        "game":"page_1",
+        "prefab":"cover",
+        "imgs":[
+          {"img":"cover.jpg"}
+        ],
+        "title":{
+          "text":"Quinito's Neighborhood (part 1)",
+          "author":"Ina Cumpiano"
+        }
+    }
+    
+   
+    
+    {
+    "game":"page_5",
+    "prefab":"learnWord_preview",
+    "word":"carpenter",
+    "image":"/img/carpenter.jpg",
+    "audio":"/audio/carpenter.mp3",
+    "audioTime":2,
+    "example":"This is a example sentence,carpenter is the word we to learn."
+    },
+    {
+    "game":"page_5",
+    "prefab":"reread_preview",
+    "image":"/img/neighborhood.jpg",
+    "audio":"/audio/neighborhood.mp3",
+    "audioTime":2,
+    "readTime":5,
+    "texts":[
+      {"read_text":"neighborhood"},
+      {"example_text":"This is a example sentence,neighborhood is the word we to learn."}
+    ]
+    },
+    {
+      "game":"page_5",
+      "prefab":"reread_preview",
+      "image":"/img/Read_P05.jpg",
+      "audio":"/audio/Audio_P05.mp3",
+      "audioTime":8,
+      "readTime":10,
+      "texts":[
+        {"read_text":"Quinito's Neighborhood My mami is a carpenter. My papi is a nurse."},
+        {"example_text":"This is a example sentence,neighborhood is the word we to learn."}
+      ]
+      },
+    
+    {
+      "game":"page_8",
+      "prefab":"part",
+      "readAudio":"res/raw-assets/resources/pages/part/audio/Part2.mp3",
+      "partNum":"2",
+      "img":"pages/part/part2.png"
+    },
+    {
+      "game":"page_25",
+      "prefab":"drag",
+      "mode":"regular",
+      "audio": {
+        "readAudio": "audio/bear.mp3"
+      },
+      "read_text":"Bear at work is as busy as can be, bringing lots of surprises to you and to me.",
+      "drags":{
+        "grooves":["nurse","","muralist"],
+        "pictures":[
+          {
+            "img":"abuelo",
+            "target":"1"
+          },
+          {
+            "img":"carpenter",
+            "target":""
+          },
+          {
+            "img":"abuelo",
+            "target":""
+          },
+          {
+            "img":"carpenter",
+            "target":""
+          },
+          {
+            "img":"abuelo",
+            "target":""
+          },
+          {
+            "img":"carpenter",
+            "target":""
+          }
+        ]
+      }
+
+    },
+    {
+      "game":"page_17",
+      "prefab":"part",
+      "readAudio":"res/raw-assets/resources/pages/part/audio/Part3.mp3",
+      "partNum":"3",
+      "img":"pages/part/part3.png"
+    },
+    {
+      "game":"page_25",
+      "prefab":"end"
+    }
+  ]
+}
+
+

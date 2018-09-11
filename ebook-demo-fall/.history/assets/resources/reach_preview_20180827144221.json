@@ -1,0 +1,41 @@
+{
+  "config":{
+    "server":"ReachCL01",
+    "imgs":[],
+    "review":false,
+    "preview_TS":true
+  },
+  "pages":[
+    {
+        "game":"page_1",
+        "prefab":"cover",
+        "imgs":[
+          {"img":"cover.jpg"}
+        ],
+        "title":{
+          "text":"Quinito's Neighborhood (part 1)",
+          "author":"Ina Cumpiano"
+        }
+    }
+    
+   
+    
+    
+    
+
+    },
+    {
+      "game":"page_17",
+      "prefab":"part",
+      "readAudio":"res/raw-assets/resources/pages/part/audio/Part3.mp3",
+      "partNum":"3",
+      "img":"pages/part/part3.png"
+    },
+    {
+      "game":"page_25",
+      "prefab":"end"
+    }
+  ]
+}
+
+

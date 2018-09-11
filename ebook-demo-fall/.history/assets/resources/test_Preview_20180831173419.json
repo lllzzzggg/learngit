@@ -1,0 +1,358 @@
+{
+    "config":{
+      "server":"M_Pre_ReachA_06",
+      "imgs":[],
+      "review":false,
+      "preview_TS":false
+    },
+    "pages":[
+      {
+          "game":"P01",
+          "prefab":"cover",
+          "imgs":[
+            {"img":"Cover.jpg"}
+          ],
+          "title":{
+            "text":"Come with Me to School (part 3)",
+            "author":""
+          }
+      },
+      {
+        "game":"P02",
+        "prefab":"part",
+        "readAudio":"Audio_Part1.mp3",
+        "partNum":"1",
+        "title":"Let's Learn",
+        "img":"pages/part/part1.png"
+      },
+      {
+        "game": "P03",
+        "prefab": "read",
+        "timeout": 3,
+        "imgs": [
+          {
+          "pane/img": "Read_P03.jpg"
+        }],
+        "audios": [{
+          "readAudio": "Audio_P03.mp3",
+          "time": 7
+        }],
+        "read_texts": [
+          "I go to school with my grandpa and grandma. I wave and say “Goodbye”."
+        ],
+        "words": [
+          ["grandpa", "grandma", "wave"]
+         
+        ]
+      },
+      {
+        "game":"P04",
+        "prefab":"choice_listen",
+        "audio":"/audio/Question_P04.mp3",
+        "right":"Choice_B",
+        "rightTime":3,
+        "question":"Grandpa, let's read a book.",
+        "selection":["Choice_A","Choice_B","Choice_C"]
+      },
+      {
+        "game":"P05",
+        "prefab":"choice_listen",
+        "audio":"/audio/Question_P05.mp3",
+        "right":"Choice_A",
+        "rightTime":3,
+        "question":"Grandpa, let's read a book.",
+        "selection":["Choice_A","Choice_B","Choice_C"]
+      },
+      {
+        "game":"P06",
+        "prefab":"part",
+        "readAudio":"Audio_Part2.mp3",
+        "partNum":"2",
+        "title":"Let's Predict",
+        "img":"pages/part/part2.png"
+      },
+      {
+        "game":"P07",
+        "prefab":"choice_look_many",
+        "audio":"/audio/Question_P08.mp3",
+        "right":["yellow","green","red"],
+        "rightTime":2,
+        "question":"What do you see?",
+        "look":"/img/Question_P08.jpg",
+        "selection":["yellow","blue","green","red"]
+      },
+      {
+        "game":"P08",
+        "prefab":"part",
+        "readAudio":"Audio_Part3.mp3",
+        "partNum":"3",
+        "title":"Let's Read",
+        "img":"pages/part/part3.png"
+      },
+      {
+        "game": "P09",
+        "prefab": "read",
+        "timeout": 3,
+        "imgs": [{
+          "pane/img": "Read_P09.jpg"
+        }],
+        "audios": [
+          {
+            "readAudio": "Audio_P09_01.mp3",
+            "time": 8
+          },
+          {
+            "readAudio": "Audio_P09_02.mp3",
+            "time": 6
+          }
+      ],
+        "read_texts": [
+          "Come with me! Let’s build with blocks,build with blocks, build with blocks.",
+          "Come with me! Let’s build with blocks, in our classroom!"
+        ],
+        "words": [
+          ["build with blocks"],
+          []
+        ]
+      },
+      {
+        "game": "P10",
+        "prefab": "read",
+        "timeout": 3,
+        "imgs": [
+            {
+              "pane/img": "Read_P10.jpg"
+            }
+        ],
+        "audios": [
+          {
+            "readAudio": "Audio_P10_01.mp3",
+            "time": 8
+          },
+          {
+            "readAudio": "Audio_P10_02.mp3",
+            "time": 7
+          }
+        ],
+        "read_texts": [
+          "We had fun! Let’s say goodbye,say goodbye, say goodbye.",
+          "We had fun!Let’ s say goodbye to our classroom!"
+        ],
+        "words": [
+          ["have fun"],
+          ["say", "goodbye"]
+        ]
+      },
+      {
+        "game":"P11",
+        "prefab":"part",
+        "readAudio":"Audio_Part4.mp3",
+        "partNum":"4",
+        "title":"Let's Play",
+        "img":"pages/part/part4.png"
+      },
+      {
+        "game":"P12",
+        "prefab":"choice_look",
+        "audio":"/audio/Question_P12.mp3",
+        "right":"build",
+        "rightTime":2,
+        "question":"Let’s ______ with blocks.",
+        "look":"/img/Question_P12.jpg",
+        "selection":["write","build","draw"]
+      },
+      {
+        "game":"P13",
+        "prefab":"choice_look",
+        "audio":"/audio/Question_P13.mp3",
+        "right":"fun",
+        "rightTime":2,
+        "question":"We have ___!",
+        "look":"/img/Question_P13.jpg",
+        "selection":["day","school","fun"]
+      },
+      {
+        "game":"P14",
+        "prefab":"choice_look",
+        "audio":"/audio/Question_P14.mp3",
+        "right":"goodbye",
+        "rightTime":2,
+        "question":"Let’s say _________.",
+        "look":"/img/Question_P14.jpg",
+        "selection":["hi","goodbye","good morning"]
+      },
+      {
+        "game":"P15",
+        "prefab":"choice_listen_many",
+        "audio":"/audio/Question_P15.mp3",
+        "right":["Choice_B","Choice_C"],
+        "rightTime":4,
+        "question":"Let’s build with blocks in our classroom.",
+        "selection":["Choice_A","Choice_B","Choice_C","Choice_D"]
+      },
+      {
+        "game":"P16",
+        "prefab":"choice_listen",
+        "audio":"/audio/Question_P16.mp3",
+        "right":"Choice_C",
+        "rightTime":3,
+        "question":"The girls build with blocks.",
+        "selection":["Choice_A","Choice_B","Choice_C"]
+      },
+      {
+        "game":"P17",
+        "prefab":"choice_listen",
+        "audio":"/audio/Question_P17.mp3",
+        "right":"Choice_B",
+        "rightTime":3,
+        "question":"They have fun.",
+        "selection":["Choice_A","Choice_B","Choice_C"]
+      },
+      {
+        "game": "P18",
+        "prefab": "drag_multiple",
+        "type": "img",
+        "audio": "Question_P18",
+        "title": {
+          "text": "Make a concept map to answer the Big Question: Where does water come from?",
+          "center": "Where does water come from?"
+        },
+        "grooves": [{
+            "content": ""
+          },
+          {
+            "content": ""
+          },
+          {
+            "content": ""
+          },
+          {
+            "content": ""
+          }
+        ],
+        "drags": [{
+            "content": "snow",
+            "targets": [3]
+          },
+          {
+            "content": "river",
+            "targets": [2]
+          },
+          {
+            "content": "cloud",
+            "targets": [0]
+          },
+          {
+            "content": "rain",
+            "targets": [1]
+          },
+          {
+            "content": "desert",
+            "targets": []
+          }
+
+        ]
+      }, 
+      {
+        "game": "P19",
+        "prefab": "drag_multiple",
+        "type": "text",
+        "audio": "Question_P19",
+        "title": {
+          "text": "Make a concept map to answer the Big Question: Where does water come from?",
+          "center": "Where does water come from?"
+        },
+        "grooves": [
+          {
+            "content": ""
+          },
+          {
+            "content": ""
+          },
+          {
+            "content": ""
+          },
+          {
+            "content": ""
+          }
+        ],
+        "drags": [
+          {
+            "content": "Water comes from the rain.",
+            "targets": [3]
+          },
+          {
+            "content": "Water comes from the snow.",
+            "targets": [0]
+          },
+          {
+            "content": "Water comes from the river.",
+            "targets": [2]
+          },
+          {
+            "content": "Water comes from the clouds.",
+            "targets": [1]
+          },
+          {
+            "content": "Water comes from the rock.",
+            "targets": []
+          }
+
+        ]
+      }, 
+      {
+        "game": "P20",
+        "prefab": "drag_multiple",
+        "type": "text",
+        "audio": "Question_P20",
+        "title": {
+          "text": "Do you know these animals? Can you put them in the right box?",
+          "center": "Animals"
+        },
+        "grooves": [
+          {
+            "content": "",
+            "tip": "they can fly"
+          },
+          {
+            "content": "",
+            "tip": "they can crawl"
+          },
+          {
+            "content": "",
+            "tip": "they can jump"
+          },
+          {
+            "content": "",
+            "tip": "they can run"
+          }
+        ],
+        "drags": [
+          {
+            "content": "bird",
+            "targets": [0]
+          },
+          {
+            "content": "rabbit",
+            "targets": [2]
+          },
+          {
+            "content": "horse",
+            "targets": [3]
+          },
+          {
+            "content": "snake",
+            "targets": [1]
+          }
+
+        ]
+      },
+      {
+        "game":"P21",
+        "prefab":"end"
+      }
+    ]
+  }
+  
+  
+  

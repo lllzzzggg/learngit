@@ -1,0 +1,625 @@
+{
+  "config":{
+    "server":"M_Pre_ReachA_01",
+    "imgs":[],
+    "review":true,
+    "preview_TS":false
+  },
+  "pages":[
+    {
+        "game":"P01",
+        "prefab":"cover",
+        "imgs":[
+          {"img":"Cover_Schooltools.jpg"}
+        ],
+        "title":{
+          "text":"School Tools",
+          "author":""
+        }
+    },
+    {
+      "game":"P02",
+      "prefab":"part",
+      "readAudio":"audio_PART_1.mp3",
+      "partNum":"1",
+      "title":"Let's Learn",
+      "img":"pages/part/part1.png"
+    },
+    
+    {
+      "game":"P31",
+      "prefab":"reread_preview",
+      "image":"/img/question_p31.jpg",
+      "audio":"/audio/Question_P31.mp3",
+      "audioTime":2,
+      "readTime":5,
+      "texts":[
+        {"read_text":"This is example."},
+        {"example_text":"This is a example sentence,neighborhood is the word we to learn."}
+      ]
+    },
+    {
+      "game":"P31",
+      "prefab":"choice_sentence_many",
+      "audio":"/audio/Question_P31.mp3",
+      "right":["B","A"],
+      "rightTime":3,
+      "question":"What do you use at school?",
+      "background":"",
+      "image":"/img/question_p31.jpg",
+      "selection":[
+        ["A. in the park ","A"],
+        ["B. in the kitchen ","B"],
+        ["C. on the bus ","C"],
+        ["D. on the bus ","D"]
+      ]
+  },
+    
+    {
+      "game":"P31",
+      "prefab":"choice_look_many",
+      "audio":"/audio/Question_P31.mp3",
+      "right":["school tools","school"],
+      "rightTime":3,
+      "question":"What do you use at school?",
+      "background":"",
+      "look":"/img/question_p31.jpg",
+      "selection":["home tools","school tools","home","school"]
+  },
+    {
+      "game":"P08",
+      "prefab":"choice_listen_many",
+      "audio":"/audio/Audio_P08.mp3",
+      "right":["choice_A","choice_B"],
+      "rightTime":3,
+      "question":"This is home.",
+      "background":"",
+      "selection":["choice_A","choice_B","choice_C","choice_C","choice_C","choice_C"]
+    },
+    
+    {
+      "game":"P08",
+      "prefab":"choice_words_many",
+      "audio":"/audio/Audio_P08.mp3",
+      "right":["B","A"],
+      "rightTime":3,
+      "question":"Where do the boy and his Papá cook? Look and choose.",
+      "background":"",
+      "selection":[
+        ["Choice_A","A. in the park ","A"],
+        ["Choice_B","B. in the kitchen ","B"],
+        ["Choice_C","C. on the bus ","C"],
+        ["Choice_C","C. on the bus ","C"]
+      ]
+  },
+    {
+      "game":"P03",
+      "prefab":"read",
+      "timeout":3,
+      "imgs":[
+        {"pane":"Read_P03.jpg"}
+      ],
+      "audios":[
+        {"readAudio":"Audio_P03.mp3","time":3}
+      ],
+      "texts":[
+        {"read_text":"I go to school."}
+      ],
+      "words":["school","tool","home","name"]
+    },
+    {
+        "game":"P04",
+        "prefab":"read",
+        "timeout":3,
+        "imgs":[
+          {"pane":"Read_P04.jpg"}
+        ],
+        "audios":[
+          {"readAudio":"Audio_P04.mp3","time":5}
+        ],
+        "texts":[
+          {"read_text":"Let's draw. I see many colors."}
+        ],
+        "words":["draw","color","pink","blue","green"]
+    },
+    {
+        "game":"P05",
+        "prefab":"read",
+        "timeout":3,
+        "imgs":[
+          {"pane":"Read_P05.jpg"}
+        ],
+        "audios":[
+          {"readAudio":"Audio_P05.mp3","time":3}
+        ],
+        "texts":[
+          {"read_text":"I see these colors."}
+        ],
+        "words":["white","yellow","black","brown"]
+    },
+    {
+        "game":"P06",
+        "prefab":"read",
+        "timeout":3,
+        "imgs":[
+          {"pane":"Read_P06.jpg"}
+        ],
+        "audios":[
+          {"readAudio":"Audio_P06.mp3","time":3}
+        ],
+        "texts":[
+          {"read_text":"I can say these numbers."}
+        ],
+        "words":["number","one","two","three","four","five"]
+    },
+    {
+        "game":"P07",
+        "prefab":"read",
+        "timeout":3,
+        "imgs":[
+          {"pane":"Read_P07.jpg"}
+        ],
+        "audios":[
+          {"readAudio":"Audio_P07.mp3","time":3}
+        ],
+        "texts":[
+          {"read_text":"I can say these numbers."}
+        ],
+        "words":["six","seven","eight","nine","ten"]
+    },
+    {
+        "game":"P08",
+        "prefab":"choice_listen",
+        "audio":"/audio/Audio_P08.mp3",
+        "right":"choice_B",
+        "rightTime":3,
+        "question":"This is home.",
+        "background":"",
+        "ifShow":false,
+        "selection":["choice_A","choice_B","choice_C"]
+    },
+    {
+        "game":"P09",
+        "prefab":"choice_listen",
+        "audio":"/audio/Audio_P09.mp3",
+        "right":"choice_A",
+        "rightTime":2,
+        "question":"It is yellow.",
+        "background":"",
+        "ifShow":false,
+        "selection":["choice_A","choice_B","choice_C"]
+    },
+    {
+        "game":"P10",
+        "prefab":"choice_listen",
+        "audio":"/audio/Audio_P10.mp3",
+        "right":"choice_B",
+        "rightTime":3,
+        "question":"It is pink.",
+        "background":"",
+        "ifShow":false,
+        "selection":["choice_A","choice_B","choice_C"]
+    },
+    {
+        "game":"P11",
+        "prefab":"choice_listen",
+        "audio":"/audio/Audio_P11.mp3",
+        "right":"choice_C",
+        "rightTime":2,
+        "question":"It is blue.",
+        "background":"",
+        "ifShow":false,
+        "selection":["choice_A","choice_B","choice_C"]
+    },
+    {
+        "game":"P12",
+        "prefab":"choice_listen",
+        "audio":"/audio/Audio_P12.mp3",
+        "right":"choice_C",
+        "rightTime":2,
+        "question":"It is green.",
+        "background":"",
+        "ifShow":false,
+        "selection":["choice_A","choice_B","choice_C"]
+    },
+    {
+        "game":"P13",
+        "prefab":"choice_listen",
+        "audio":"/audio/Audio_P13.mp3",
+        "right":"choice_A",
+        "rightTime":2,
+        "question":"It is white.",
+        "background":"",
+        "ifShow":false,
+        "selection":["choice_A","choice_B","choice_C"]
+    },
+    {
+        "game":"P14",
+        "prefab":"choice_listen",
+        "audio":"/audio/Audio_P14.mp3",
+        "right":"choice_A",
+        "rightTime":2,
+        "question":"It is black.",
+        "background":"",
+        "ifShow":false,
+        "selection":["choice_A","choice_B","choice_C"]
+    },
+    {
+        "game":"P15",
+        "prefab":"choice_listen",
+        "audio":"/audio/Audio_P15.mp3",
+        "right":"choice_C",
+        "rightTime":2,
+        "question":"It is brown.",
+        "background":"",
+        "ifShow":false,
+        "selection":["choice_A","choice_B","choice_C"]
+    },
+    {
+        "game":"P16",
+        "prefab":"choice_listen",
+        "audio":"/audio/Audio_P16.mp3",
+        "right":"choice_A",
+        "rightTime":3,
+        "question":"This is number one.",
+        "background":"",
+        "ifShow":false,
+        "selection":["choice_A","choice_B","choice_C"]
+    },
+    {
+        "game":"P17",
+        "prefab":"choice_listen",
+        "audio":"/audio/Audio_P17.mp3",
+        "right":"choice_B",
+        "rightTime":3,
+        "question":"This is number two.",
+        "background":"",
+        "ifShow":false,
+        "selection":["choice_A","choice_B","choice_C"]
+    },
+    {
+        "game":"P18",
+        "prefab":"choice_listen",
+        "audio":"/audio/Audio_P18.mp3",
+        "right":"choice_C",
+        "rightTime":3,
+        "question":"This is number three.",
+        "background":"",
+        "ifShow":false,
+        "selection":["choice_A","choice_B","choice_C"]
+    },
+    {
+        "game":"P19",
+        "prefab":"choice_listen",
+        "audio":"/audio/Audio_P19.mp3",
+        "right":"choice_B",
+        "rightTime":3,
+        "question":"This is number four.",
+        "background":"",
+        "ifShow":false,
+        "selection":["choice_A","choice_B","choice_C"]
+    },
+    {
+        "game":"P20",
+        "prefab":"choice_listen",
+        "audio":"/audio/Audio_P20.mp3",
+        "right":"choice_C",
+        "rightTime":4,
+        "question":"This is number five.",
+        "background":"",
+        "ifShow":false,
+        "selection":["choice_A","choice_B","choice_C"]
+    },
+    {
+        "game":"P21",
+        "prefab":"choice_listen",
+        "audio":"/audio/Audio_P21.mp3",
+        "right":"choice_A",
+        "rightTime":4,
+        "question":"This is number six.",
+        "background":"",
+        "ifShow":false,
+        "selection":["choice_A","choice_B","choice_C"]
+    },
+    {
+        "game":"P22",
+        "prefab":"choice_listen",
+        "audio":"/audio/Audio_P22.mp3",
+        "right":"choice_A",
+        "rightTime":4,
+        "question":"This is number seven.",
+        "background":"",
+        "ifShow":false,
+        "selection":["choice_A","choice_B","choice_C"]
+    },
+    {
+        "game":"P23",
+        "prefab":"choice_listen",
+        "audio":"/audio/Audio_P23.mp3",
+        "right":"choice_B",
+        "rightTime":3,
+        "question":"This is number eight.",
+        "background":"",
+        "ifShow":false,
+        "selection":["choice_A","choice_B","choice_C"]
+    },
+    {
+        "game":"P24",
+        "prefab":"choice_listen",
+        "audio":"/audio/Audio_P24.mp3",
+        "right":"choice_C",
+        "rightTime":4,
+        "question":"This is number nine.",
+        "background":"",
+        "ifShow":false,
+        "selection":["choice_A","choice_B","choice_C"]
+    },
+    {
+        "game":"P25",
+        "prefab":"choice_listen",
+        "audio":"/audio/Audio_P25.mp3",
+        "right":"choice_B",
+        "rightTime":3,
+        "question":"This is number ten.",
+        "background":"",
+        "ifShow":false,
+        "selection":["choice_A","choice_B","choice_C"]
+    },
+    {
+        "game":"P26",
+        "prefab":"choice_listen",
+        "audio":"/audio/Audio_P26.mp3",
+        "right":"choice_A",
+        "rightTime":3,
+        "question":"These are numbers.",
+        "background":"",
+        "ifShow":false,
+        "selection":["choice_A","choice_B","choice_C"]
+    },
+    {
+        "game":"P27",
+        "prefab":"choice_listen",
+        "audio":"/audio/Audio_P27.mp3",
+        "right":"choice_A",
+        "rightTime":3,
+        "question":"I see many colors.",
+        "background":"",
+        "ifShow":false,
+        "selection":["choice_A","choice_B","choice_C"]
+    },
+    {
+        "game":"P28",
+        "prefab":"choice_listen",
+        "audio":"/audio/Audio_P28.mp3",
+        "right":"choice_B",
+        "rightTime":3,
+        "question":"Let's draw a picture.",
+        "background":"",
+        "ifShow":false,
+        "selection":["choice_A","choice_B","choice_C"]
+    },
+    {
+        "game":"P29",
+        "prefab":"choice_listen",
+        "audio":"/audio/Audio_P29.mp3",
+        "right":"choice_C",
+        "rightTime":3,
+        "question":"His name is Tom.",
+        "background":"",
+        "ifShow":false,
+        "selection":["choice_A","choice_B","choice_C"]
+    },
+    {
+        "game":"P30",
+        "prefab":"part",
+        "readAudio":"Audio_Part2.mp3",
+        "partNum":"2",
+        "title":"Let's Predict",
+        "img":"pages/part/part2.png"
+    },
+    {
+        "game":"P31",
+        "prefab":"choice_look",
+        "audio":"/audio/Question_P31.mp3",
+        "right":"school tools",
+        "rightTime":3,
+        "question":"What do you use at school?",
+        "background":"",
+        "look":"/img/question_p31.jpg",
+        "selection":["home tools","school tools"]
+    },
+    {
+        "game":"P32",
+        "prefab":"part",
+        "readAudio":"Audio_Part3.mp3",
+        "partNum":"3",
+        "title":"Let's Read",
+        "img":"pages/part/part3.png"
+    },
+    {
+        "game":"P33",
+        "prefab":"read",
+        "timeout":3,
+        "imgs":[
+          {"pane":"Read_P33.jpg"}
+        ],
+        "audios":[
+          {"readAudio":"Read_P33.mp3","time":1}
+        ],
+        "texts":[
+          {"read_text":"a pencil"}
+        ],
+        "words":[]
+    },
+    {
+        "game":"P34",
+        "prefab":"read",
+        "timeout":3,
+        "imgs":[
+          {"pane":"Read_P34.jpg"}
+        ],
+        "audios":[
+          {"readAudio":"Read_P34.mp3","time":1}
+        ],
+        "texts":[
+          {"read_text":"the pencils"}
+        ],
+        "words":[]
+    },
+    {
+        "game":"P35",
+        "prefab":"read",
+        "timeout":3,
+        "imgs":[
+          {"pane":"Read_P35.jpg"}
+        ],
+        "audios":[
+          {"readAudio":"Read_P35.mp3","time":1}
+        ],
+        "texts":[
+          {"read_text":"a crayon"}
+        ],
+        "words":[]
+    },
+    {
+        "game":"P36",
+        "prefab":"read",
+        "timeout":3,
+        "imgs":[
+          {"pane":"Read_P36.jpg"}
+        ],
+        "audios":[
+          {"readAudio":"Read_P36.mp3","time":1}
+        ],
+        "texts":[
+          {"read_text":"the crayons"}
+        ],
+        "words":[]
+    },
+    {
+        "game":"P37",
+        "prefab":"read",
+        "timeout":3,
+        "imgs":[
+          {"pane":"Read_P37.jpg"}
+        ],
+        "audios":[
+          {"readAudio":"Read_P37.mp3","time":1}
+        ],
+        "texts":[
+          {"read_text":"the scissors"}
+        ],
+        "words":[]
+    },
+    {
+        "game":"P38",
+        "prefab":"read",
+        "timeout":3,
+        "imgs":[
+          {"pane":"Read_P38.jpg"}
+        ],
+        "audios":[
+          {"readAudio":"Read_P38.mp3","time":1}
+        ],
+        "texts":[
+          {"read_text":"the glue"}
+        ],
+        "words":[]
+    },
+    {
+        "game":"P39",
+        "prefab":"read",
+        "timeout":3,
+        "imgs":[
+          {"pane":"Read_P39.jpg"}
+        ],
+        "audios":[
+          {"readAudio":"Read_P39.mp3","time":1}
+        ],
+        "texts":[
+          {"read_text":"a book"}
+        ],
+        "words":[]
+    },
+    {
+        "game":"P40",
+        "prefab":"part",
+        "readAudio":"Audio_Part4.mp3",
+        "partNum":"4",
+        "title":"Let's Play",
+        "img":"pages/part/part4.png"
+    },
+    {
+        "game":"P41",
+        "prefab":"choice_look",
+        "audio":"/audio/Audio_P41.mp3",
+        "right":"a pencil",
+        "rightTime":2,
+        "question":"What do you see?",
+        "background":"",
+        "look":"/img/Question_P41.jpg",
+        "selection":["the pencils","pencils","a pencil"]
+    },
+    {
+        "game":"P42",
+        "prefab":"choice_look",
+        "audio":"/audio/Question_P42.mp3",
+        "right":"the scissors",
+        "rightTime":2,
+        "question":"What do you see?",
+        "background":"",
+        "look":"/img/Question_P42.jpg",
+        "selection":["the crayons","the glue","the scissors"]
+    },
+    {
+        "game":"P43",
+        "prefab":"choice_look",
+        "audio":"/audio/Question_P43.mp3",
+        "right":"a book",
+        "rightTime":2,
+        "question":"What do you see?",
+        "background":"",
+        "look":"/img/Question_p43.jpg",
+        "selection":["a pencil","a book","the books"]
+    },
+    {
+        "game":"P44",
+        "prefab":"choice_listen_many",
+        "audio":"/audio/Question_P44.mp3",
+        "right":["Choice_A","Choice_C"],
+        "rightTime":3,
+        "question":"I see a _______.",
+        "background":"",
+        "ifShow":false,
+        "selection":["Choice_A","Choice_B","Choice_C"]
+    },
+    {
+        "game":"P45",
+        "prefab":"choice_listen",
+        "audio":"/audio/Question_P45.mp3",
+        "right":"Choice_A",
+        "rightTime":3,
+        "question":"This is school.",
+        "background":"",
+        "ifShow":false,
+        "selection":["Choice_A","Choice_B","Choice_C"]
+    },
+    {
+        "game":"P46",
+        "prefab":"choice_listen",
+        "audio":"/audio/Audio_P46.mp3",
+        "right":"Choice_C",
+        "rightTime":3,
+        "question":"These are tools.",
+        "background":"",
+        "ifShow":false,
+        "selection":["Choice_A","Choice_B","Choice_C"]
+    },
+    {
+      "game":"P47",
+      "prefab":"end"
+    }
+  ]
+}
+
+
