@@ -1,0 +1,72 @@
+{
+    "config": {
+        "server": "M_Rev_ReachD_Demo",
+        "imgs": [],
+        "review": true,
+        "preview_TS": false
+    },
+    "pages": [
+        {
+            "game": "P00",
+            "prefab": "drag_multiple",
+            "type": "text",
+            "title": {
+                "text": "Yet these odd couples live together. This is called a symbiotic relationship.",
+                "center":"This is a center message in center node."
+            },
+            "grooves":[
+                {
+                    "content":"",
+                    "tip": "symbiotic relationship"
+                },
+                {
+                    "content": "",
+                    "tip": "Yet these odd"
+                },
+                {
+                    "content": "",
+                    "tip": "Yet these odd"
+                }, {
+                    "content": "",
+                    "tip": "Yet these odd"
+                },
+                {
+                    "content": "",
+                    "tip": "Yet these odd"
+                }
+            ],
+            "drags":[
+                {
+                    "content": "pic2",
+                    "targets": [0,1]
+                },
+                {
+                    "content": "pic4",
+                    "targets": [1,4]
+                },
+                {
+                    "content": "pic4",
+                    "targets": [0,3]
+                },
+                {
+                    "content": "pic2",
+                    "targets": [1,2]
+                },
+                {
+                    "content": "pic4",
+                    "targets": [3, 2]
+                }, {
+                    "content": "pic2",
+                    "targets": [1, 2]
+                },
+                {
+                    "content": "pic3",
+                    "targets": [0,3]
+                }
+
+            ]
+           
+        }
+             
+    ]
+}

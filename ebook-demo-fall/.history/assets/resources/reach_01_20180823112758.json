@@ -1,0 +1,83 @@
+{
+  "config": {
+    "server": "ReachCL01",
+    "imgs": [],
+    "review": false,
+    "preview_TS": true
+  },
+  "pages": [
+    {
+      "game": "page_1",
+      "prefab": "cover",
+      "imgs": [{
+        "img": "cover.jpg"
+      }],
+      "title": {
+        "text": "Quinito's Neighborhood (part 1)",
+        "author": "Ina Cumpiano"
+      }
+    },
+    {
+      "game": "P00",
+      "prefab": "drag_multiple",
+      "type": "text",
+      "title": {
+        "text": "Yet these odd couples live together. This is called a symbiotic relationship.",
+        "center": "This is a center message in center node."
+      },
+      "grooves": [
+        {
+          "content": "",
+          "tip": "symbiotic relationship"
+        },
+
+        {
+          "content": "",
+          "tip": "Yet these odd"
+        }, {
+          "content": "",
+          "tip": "Yet these odd"
+        },
+        {
+          "content": "",
+          "tip": "Yet these odd"
+        }
+      ],
+      "drags": [{
+          "content": "pic2",
+          "targets": [0, 1]
+        },
+        {
+          "content": "pic4",
+          "targets": [1, 3]
+        },
+        {
+          "content": "pic4",
+          "targets": [0, 3]
+        },
+        {
+          "content": "pic2",
+          "targets": [1, 2]
+        },
+        {
+          "content": "pic4",
+          "targets": [3, 2]
+        }, {
+          "content": "pic2",
+          "targets": [1, 2]
+        },
+        {
+          "content": "pic3",
+          "targets": [0, 3]
+        }
+
+      ]
+
+    },
+    
+    {
+      "game": "page_25",
+      "prefab": "end"
+    }
+  ]
+}

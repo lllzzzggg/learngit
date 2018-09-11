@@ -1,0 +1,427 @@
+{
+  "config":{
+    "server":"M_Pre_ReachC_10",
+    "imgs":[],
+    "review":false,
+    "preview_TS":false
+  },
+  "pages":[
+    {
+        "game":"P01",
+        "prefab":"cover",
+        "imgs":[
+          {"img":"cover.jpg"}
+        ],
+        "title":{
+          "text":"Living Lights",
+          "author":"Dr.Dennis Desjardin"
+        }
+    },
+    {
+      "game":"P02",
+      "prefab":"part",
+      "readAudio":"Audio_Part1.mp3",
+      "partNum":"1",
+      "title":"Let's Predict",
+      "img":"pages/part/part1.png"
+    },
+    {
+      "game":"P03",    				
+      "prefab":"choice_look",			
+      "audio":"/audio/Question_P03.mp3",			
+      "right":["It can make light."],		
+      "rightTime":2,						
+      "question":"What can this mushroom do?",			
+      "look":"/img/Question_P03.jpg",			
+      "selection":["It can eat insects.","It can hurt people.","It can make light."] 
+    },
+    {
+      "game":"P04",
+      "prefab":"part",
+      "readAudio":"Audio_Part2.mp3",
+      "partNum":"2",
+      "title":"Let's Read",
+      "img":"pages/part/part2.png"
+    },
+    {
+        "game":"P05",
+        "prefab":"read",
+        "timeout":3,
+        "imgs":[
+          {"pane":"Read_P05.jpg"}
+        ],
+        "audios":[
+          {"readAudio":"Read_P05.mp3","time":16}
+        ],
+        "texts":[
+          {"read_text":"Lights at My Feet I was in a forest in Brazil. Strange lights were all around my feet. They looked like stars on the ground. They were mushrooms!"}
+        ],
+        "words":["Brazil","forest","mushroom"]
+    },
+    {
+        "game":"P06",
+        "prefab":"read",
+        "timeout":3,
+        "imgs":[
+          {"pane":"Read_P06.jpg"}
+        ],
+        "audios":[
+          {"readAudio":"Read_P06.mp3","time":6}
+        ],
+        "texts":[
+          {"read_text":"The mushrooms were bioluminescent. They could make light."}
+        ],
+        "words":["bioluminescent"]
+    },
+    { "game":"P07",
+      "prefab":"read",
+      "timeout":3,
+      "imgs":[
+        {"pane":"Read_P07.jpg"}
+      ],
+      "audios":[
+        {"readAudio":"Read_P07.mp3","time":5}
+      ],
+      "texts":[
+        {"read_text":"I am a scientist (person who learns about plants and animals). I study mushrooms."}
+      ],
+      "words":[]
+    },
+    {
+      "game":"P08",
+      "prefab":"read",
+      "timeout":3,
+      "imgs":[
+        {"pane":"Read_P08.jpg"}
+      ],
+      "audios":[
+        {"readAudio":"Read_P08.mp3","time":9}
+      ],
+      "texts":[
+        {"read_text":"I wanted to learn more about them and other living lights. Turn the pages to see what I learned."}
+      ],
+      "words":[]
+    },
+    {  "game":"P09",
+      "prefab":"read",
+      "timeout":3,
+      "imgs":[
+        {"pane":"Read_P09.jpg"}
+      ],
+      "audios":[
+        {"readAudio":"Read_P09.mp3","time":8}
+      ],
+      "texts":[
+        {"read_text":"LIGHTS THAT HELP MUSHROOMS     Mushrooms have spores. A spore is like a seed (the part of a plant that makes a new plant)."}
+      ],
+      "words":["seed","spore"]
+    
+    },
+    {
+        
+     "game":"P10",
+      "prefab":"read",
+      "timeout":3,
+      "imgs":[
+        {"pane":"Read_P10.jpg"}
+      ],
+      "audios":[
+        {"readAudio":"Read_P10.mp3","time":11}
+      ],
+      "texts":[
+        {"read_text":"The mushrooms spit their spores into the air. The wind carries the spores to new places where they grow into new mushrooms."}
+      ],
+      "words":["spit"]
+    },
+    {
+      "game":"P11",
+      "prefab":"read",
+      "timeout":3,
+      "imgs":[
+        {"pane":"Read_P11.jpg"}
+      ],
+      "audios":[
+        {"readAudio":"Read_P11.mp3","time":8}
+      ],
+      "texts":[
+        {"read_text":"Sometimes insects carry spores to new places. Light attracts insects."}
+      ],
+      "words":[]
+    },
+    {"game":"P12",
+      "prefab":"read",
+      "timeout":5,
+      "imgs":[
+        {"pane":"Read_P12.jpg"}
+      ],
+      "audios":[
+        {"readAudio":"Read_P12.mp3","time":11}
+      ],
+      "texts":[
+        {"read_text":"When they land on the glowing mushrooms, some spores might stick to them. When the insects leave, so do the spores!"}
+      ],
+      "words":["stick to"]
+    },
+    {
+      "game":"P13",
+      "prefab":"part",
+      "readAudio":"Audio_Part3.mp3",
+      "partNum":"3",
+      "title":"Let's Play",
+      "img":"pages/part/part3.png"
+    },
+    {
+      "game":"P14",
+      "prefab":"choice_look",
+      "audio":"/audio/Question_P14.mp3",
+      "right":"In Brazil",
+      "rightTime":5,
+      "question":"Where did the scientist see strange lights around his feet?",
+      "background":"pages/choice/new/bg.png",
+      "look":"/img/Question_P14.jpg",
+      "selection":["In Brazil","In China","In America"]
+    },
+    {
+      "game":"P15",
+      "prefab":"choice_look",
+      "audio":"/audio/Question_P15.mp3",
+      "right":"A spore is like a seed.",
+      "rightTime":2,
+      "question":"What is a spore like?",
+      "background":"pages/choice/new/bg.png",
+      "look":"/img/Question_P15.jpg",
+      "selection":["A spore is like a light.","A spore is like an insect.","A spore is like a seed","A spore is like a small mushroom"]
+    },
+    {"game":"P16",
+      "prefab":"choice_look",
+      "audio":"/audio/Question_P16.mp3",
+      "right":"The light attracts insects.",
+      "rightTime":3,
+      "question":"What does the light attract?",
+      "background":"pages/choice/new/bg.png",
+      "look":"/img/Question_P16.jpg",
+      "selection":["The light attracts insects.","The light attracts spores.","The light attracts people","The light attracts other mushrooms"]
+    },
+    {
+      "game":"P17",    				
+              "prefab":"choice_look_many",			
+              "audio":"/audio/Question_P17.mp3",			
+              "right":["The insects go to new places with the spores.","The spores stick to the insects.","The insects are attracted by the light."],		
+              "rightTime":5,						
+              "question":"Which ones are right about the insects on the mushrooms?",			
+              "look":"/img/Question_P17.jpg",			
+              "selection":["The insects go to new places with the spores.","The insects eat the mushrooms.","The spores stick to the insects.","The insects are attracted by the light."]  
+    },
+    {
+        "game":"P18",
+        "prefab":"choice_listen",
+        "audio":"/audio/Question_P18.mp3",
+        "right":"Choice_C",
+        "rightTime":3,
+        "question":"Many forests are destroyed each year.",
+        "background":"",
+        "ifShow":false,
+        "selection":["Choice_A","Choice_B","Choice_C"]
+    },
+    {
+        "game":"P19",
+        "prefab":"choice_listen",
+        "audio":"/audio/Question_P19.mp3",
+        "right":"Choice_B",
+        "rightTime":4,
+        "question":"The most popular sport in Brazil is football.",
+        "background":"",
+        "ifShow":false,
+        "selection":["Choice_A","Choice_B","Choice_C"]
+    },
+    {
+      "game":"P20",
+      "prefab":"choice_listen",
+      "audio":"/audio/Question_P20.mp3",
+      "right":"Choice_A",
+      "rightTime":2,
+      "question":"There are many types of mushrooms.",
+      "background":"",
+      "ifShow":false,
+      "selection":["Choice_A","Choice_B","Choice_C"]
+  },
+  {
+    "game":"P21",
+      "prefab":"choice_listen",
+      "audio":"/audio/Question_P21.mp3",
+      "right":"Choice_C",
+      "rightTime":3,
+      "question":"Some bacteria are bioluminescent.",
+      "background":"",
+      "ifShow":false,
+      "selection":["Choice_A","Choice_B","Choice_C"]
+  },
+  {
+    "game":"P22",
+      "prefab":"choice_listen",
+      "audio":"/audio/Question_P22.mp3",
+      "right":"Choice_B",
+      "rightTime":4,
+      "question":"Mushroom's spores are carried by the wind.",
+      "background":"",
+      "ifShow":false,
+      "selection":["Choice_A","Choice_B","Choice_C"]
+  },
+  {
+    "game":"P23",
+      "prefab":"choice_listen",
+      "audio":"/audio/Question_P23.mp3",
+      "right":"Choice_A",
+      "rightTime":4,
+      "question":"These sunflowers can be grown from seeds.",
+      "background":"",
+      "ifShow":false,
+      "selection":["Choice_A","Choice_B","Choice_C"]
+  },
+  {
+    "game":"P24",
+      "prefab":"choice_listen",
+      "audio":"/audio/Question_P24.mp3",
+      "right":"Choice_B",
+      "rightTime":2,
+      "question":"The fish is spitting bubbles.",
+      "background":"",
+      "ifShow":false,
+      "selection":["Choice_A","Choice_B","Choice_C"]
+   },
+    {
+      "game":"P25",
+      "prefab":"choice_listen",
+      "audio":"/audio/Question_P25.mp3",
+      "right":"Choice_C",
+      "rightTime":3,
+      "question":"A piece of chewing gum stuck to my shoe.",
+      "background":"",
+      "ifShow":false,
+      "selection":["Choice_A","Choice_B","Choice_C"]
+    },
+    {
+      "game":"P26",
+      "prefab":"part",
+      "readAudio":"Audio_Part4.mp3",
+      "partNum":"4",
+      "title":"Let's Learn",
+      "img":"pages/part/part4.png"
+    },
+   {
+    "game":"P27",
+    "prefab":"read",
+    "timeout":3,
+    "imgs":[
+      {"pane":"Read_P27.jpg"}
+    ],
+    "audios":[
+      {"readAudio":"Read_P27.mp3","time":9}
+    ],
+    "texts":[
+      {"read_text":"Animals and insects need food and water to survive. They also need a shelter to stay safe."}
+    ],
+    "word":["food","water","shelter"]
+    },
+    {
+      "game":"P28",
+    "prefab":"read",
+    "timeout":3,
+    "imgs":[
+      {"pane":"Read_P28.jpg"}
+    ],
+    "audios":[
+      {"readAudio":"Read_P28.mp3","time":5}
+    ],
+    "texts":[
+      {"read_text":"Some of them have typical features that help them adapt to their habitat."}
+    ],
+    "word":["feature"]
+     },
+     {
+      "game":"P29",
+    "prefab":"read",
+    "timeout":3,
+    "imgs":[
+      {"pane":"Read_P29.jpg"}
+    ],
+    "audios":[
+      {"readAudio":"Read_P29.mp3","time":12}
+    ],
+    "texts":[
+      {"read_text":"For example, a leaf katydid hides from predators by looking like its environment and a firefly squid uses blue light to catch prey."}
+    ],
+    "word":["predator","prey"]
+     },
+     {
+      "game":"P30",
+      "prefab":"choice_listen",
+      "audio":"/audio/Question_P30.mp3",
+      "right":"Choice_C",
+      "rightTime":3,
+      "question":"We'll bring some food to have a picnic.",
+      "background":"",
+      "ifShow":false,
+      "selection":["Choice_A","Choice_B","Choice_C"]
+    },
+    {
+      "game":"P31",
+      "prefab":"choice_listen",
+      "audio":"/audio/Question_P31.mp3",
+      "right":"Choice_A",
+      "rightTime":2,
+      "question":"Get her a glass of water, please.",
+      "background":"",
+      "ifShow":false,
+      "selection":["Choice_A","Choice_B","Choice_C"]
+    },
+    {
+      "game":"P32",
+      "prefab":"choice_listen",
+      "audio":"/audio/Question_P32.mp3",
+      "right":"Choice_A",
+      "rightTime":5,
+      "question":"They provided a shelter for those homeless children after the earthquake.",
+      "background":"",
+      "ifShow":false,
+      "selection":["Choice_A","Choice_B","Choice_C"]
+    },
+    {
+      "game":"P33",
+      "prefab":"choice_listen",
+      "audio":"/audio/Question_P33.mp3",
+      "right":"Choice_B",
+      "rightTime":4,
+      "question":"The latest model of phone has several new features.",
+      "background":"",
+      "ifShow":false,
+      "selection":["Choice_A","Choice_B","Choice_C"]
+    },
+    {
+      "game":"P34",
+      "prefab":"choice_listen",
+      "audio":"/audio/Question_P34.mp3",
+      "right":"Choice_C",
+      "rightTime":4,
+      "question":"The lion is one of the predators in nature.",
+      "background":"",
+      "ifShow":false,
+      "selection":["Choice_A","Choice_B","Choice_C"]
+    },
+    {
+      "game":"P35",
+      "prefab":"choice_listen",
+      "audio":"/audio/Question_P35.mp3",
+      "right":"Choice_B",
+      "rightTime":3,
+      "question":"Mice are the prey of cats.",
+      "background":"",
+      "ifShow":false,
+      "selection":["Choice_A","Choice_B","Choice_C"]
+    },
+    {
+      "game":"P36",
+      "prefab":"end"
+    }
+  ]
+}

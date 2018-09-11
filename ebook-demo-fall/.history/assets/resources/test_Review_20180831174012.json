@@ -1,0 +1,159 @@
+{
+    "config":{
+      "server":"test_Preview",
+      "imgs":[],
+      "review":true,
+      "preview_TS":false
+    },
+    "pages":[
+      {
+          "game":"P00",
+          "prefab":"cover",
+          "imgs":[
+            {"img":"Cover.jpg"}
+          ],
+          "title":{
+            "text":"Come with Me to School (part 3)",
+            "author":""
+          }
+      },
+      {
+        "game":"P01",
+        "prefab":"part",
+        "readAudio":"Audio_Part1.mp3",
+        "partNum":"1",
+        "title":"Let's Learn",
+        "img":"pages/part/part1.png"
+      },
+      {
+        "game":"P02",
+        "prefab":"choice_listen",
+        "audio":"/audio/Question_P02.mp3",
+        "right":"Choice_B",
+        "rightTime":3,
+        "question":"The girls build with blocks.",
+        "selection":["Choice_A","Choice_B","Choice_C"]
+      },
+      {
+        "game":"P03",
+        "prefab":"choice_listen",
+        "audio":"/audio/Question_P03.mp3",
+        "right":"Choice_A",
+        "rightTime":3,
+        "question":"They have fun.",
+        "selection":["Choice_A","Choice_B","Choice_C"]
+      },
+      {
+        "game":"P04",
+        "prefab":"choice_listen",
+        "audio":"/audio/Question_P04.mp3",
+        "right":"Choice_C",
+        "rightTime":3,
+        "question":"They say \"Hello\".",
+        "selection":["Choice_A","Choice_B","Choice_C"]
+      },
+      {
+        "game":"P05",
+        "prefab":"part",
+        "readAudio":"Audio_Part2.mp3",
+        "partNum":"2",
+        "title":"Reading Comprehension",
+        "img":"pages/part/part2.png"
+      },
+      {
+        "game":"P06",
+        "prefab":"choice_look",
+        "audio":"/audio/Question_P06.mp3",
+        "right":"in our classroom",
+        "rightTime":3,
+        "question":"Where do we play?",
+        "look":"/img/Question_P06.jpg",
+        "selection":["in our classroom","in our lunch room","at our playground"]
+      },
+      {
+        "game":"P07",
+        "prefab":"choice_look",
+        "audio":"/audio/Question_P07.mp3",
+        "right":"4",
+        "rightTime":3,
+        "question":"How many kids do you see?",
+        "look":"/img/Question_P07.jpg",
+        "selection":["9","5","4"]
+      },
+      {
+        "game": "P08",
+        "prefab": "drag",
+        "mode": "regular",
+        "audio": {
+          "readAudio": "audio/bear.mp3",
+          "time": "5"
+        },
+        "read_text": "What do we do? Put the pictures to the right places.",
+        "drags": {
+          "grooves": ["Order_01", "", "vv", "", "", ""],
+          "pictures": [{
+              "img": "abuelo",
+              "target": "1"
+            },
+            {
+              "img": "dancingteacher",
+              "target": "3"
+            },
+            {
+              "img": "carpenter",
+              "target": "5"
+            },
+            {
+              "img": "abuelo",
+              "target": "4"
+            },
+            {
+              "img": "dancingteacher",
+              "target": ""
+            },
+            {
+              "img": "carpenter",
+              "target": ""
+            }
+          ]
+        }
+      },
+      {
+        "game":"P09",
+        "prefab":"part",
+        "readAudio":"Audio_Part3.mp3",
+        "partNum":"3",
+        "title":"Show and Tell",
+        "img":"pages/part/part3.png"
+      },
+      {
+        "game":"P10",
+        "prefab":"reread",
+        "image":"/img/Repeat_P10.jpg",
+        "audio":"/audio/Repeat_P10.mp3",
+        "audioTime":4,
+        "readTime":9,
+        "texts":[
+          {"read_text":"Let’s build with blocks in our classroom."}
+        ]
+      },  
+      {
+        "game":"P11",
+        "prefab":"reread",
+        "image":"/img/Repeat_P11.jpg",
+        "audio":"/audio/Repeat_P11.mp3",
+        "audioTime":4,
+        "readTime":9,
+        "texts":[
+          {"read_text":"Let’s say goodbye to our classroom."}
+        ]
+      }, 
+        {
+          "game":"P15",
+          "prefab":"end"
+        }
+    ]
+  }
+  
+  
+  

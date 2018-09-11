@@ -1,0 +1,7 @@
+{
+  "ver": "1.0.0",
+  "uuid": "93994beb-a34c-410f-9476-5a75fdf8cb1a",
+  "atlasJson": "{\"SubTexture\":[{\"x\":1,\"y\":1,\"width\":96,\"name\":\"laba\",\"height\":96},{\"x\":1,\"y\":99,\"width\":10,\"name\":\"Phonograph/yin01\",\"height\":22},{\"x\":99,\"y\":63,\"width\":17,\"name\":\"Phonograph/yin02\",\"height\":40},{\"x\":99,\"y\":1,\"width\":21,\"name\":\"Phonograph/yin03\",\"height\":60}],\"imagePath\":\"horn_tex.png\",\"width\":128,\"name\":\"horn\",\"height\":128}",
+  "texture": "18d416e7-735c-41ac-8644-67fcf823bf36",
+  "subMetas": {}
+}

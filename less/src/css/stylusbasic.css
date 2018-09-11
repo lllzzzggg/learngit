@@ -1,0 +1,106 @@
+.border-radius,
+.stylus,
+.stylus .stylus-grow {
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+}
+/* stylus */
+.stylus {
+  padding: 20px;
+  height: 400px;
+  background: #fff;
+  box-shadow: 0px 0px 10px #0000e6 inset;
+}
+.stylus h3 {
+  text-align: center;
+  font-size: 24px;
+  color: #00f;
+}
+.stylus .stylus-grow {
+  margin-top: 20px;
+  background: #00f;
+  width: 160px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  display: block;
+  transition: all 0.3s;
+  color: #fff;
+}
+.stylus .stylus-grow:hover {
+  transform: scale(1.1);
+}
+.stylus .stylus-grow:hover {
+  background: #0000f2;
+}
+.stylus dl {
+  margin-top: 20px;
+}
+.stylus dl dd:nth-child(1) {
+  position: relative;
+  padding-left: 30px;
+  line-height: 30px;
+}
+.stylus dl dd:nth-child(1):before {
+  content: '1';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 20px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  color: #00f;
+}
+.stylus dl dd:nth-child(2) {
+  position: relative;
+  padding-left: 30px;
+  line-height: 30px;
+}
+.stylus dl dd:nth-child(2):before {
+  content: '2';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 20px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  color: #00f;
+}
+.stylus dl dd:nth-child(2):before {
+  font-size: 30px;
+  color: #f00;
+}
+.stylus dl dd:nth-child(3) {
+  position: relative;
+  padding-left: 30px;
+  line-height: 30px;
+}
+.stylus dl dd:nth-child(3):before {
+  content: '3';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 20px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  color: #00f;
+}
+.stylus dl dd:nth-child(4) {
+  position: relative;
+  padding-left: 30px;
+  line-height: 30px;
+}
+.stylus dl dd:nth-child(4):before {
+  content: '4';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 20px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  color: #00f;
+}

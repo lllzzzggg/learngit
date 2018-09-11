@@ -1,0 +1,202 @@
+{
+  "config":{
+    "server":"ReachCL01",
+    "imgs":[],
+    "review":false,
+    "preview_TS":true
+  },
+  "pages":[
+    {
+        "game":"page_1",
+        "prefab":"cover",
+        "imgs":[
+          {"img":"cover.jpg"}
+        ],
+        "title":{
+          "text":"Quinito's Neighborhood (part 1)",
+          "author":"Ina Cumpiano"
+        }
+    },
+   
+    {
+      "game": "page_25",
+      "prefab": "drag",
+      "mode": "regular",
+      "audio": {
+        "readAudio": "audio/bear.mp3",
+        "time": "5"
+      },
+      "read_text": "Bear at work is as busy as can be, bringing lots of surprises to you and to me.",
+      "drags": {
+        "grooves": ["aa", "", "vv", "", "", ""],
+        "pictures": [{
+            "img": "abuelo",
+            "target": "1"
+          },
+          {
+            "img": "dancingteacher",
+            "target": "3"
+          },
+          {
+            "img": "carpenter",
+            "target": "5"
+          },
+          {
+            "img": "abuelo",
+            "target": "4"
+          },
+          {
+            "img": "dancingteacher",
+            "target": ""
+          },
+          {
+            "img": "carpenter",
+            "target": ""
+          }
+        ]
+      }
+
+    }, {
+      "game": "p13",
+      "prefab": "drag_multiple",
+      "type": "text",
+      "audio":"Question_P13",
+      "title": {
+        "text": "Do you know these animals? Can you put them in the right box?",
+        "center": "Animals"
+      },
+      "grooves": [
+        {
+          "content": "",
+          "tip": "they can fly"
+        },
+        {
+          "content": "",
+          "tip": "they can crawl"
+        },
+        {
+          "content": "",
+          "tip": "they can jump"
+        },
+        {
+          "content": "",
+          "tip": "they can run"
+        }
+      ],
+      "drags": [{
+          "content": "bird",
+          "targets": [0]
+        },
+        {
+          "content": "rabbit",
+          "targets": [2]
+        },
+        {
+          "content": "horse",
+          "targets": [0, 3]
+        },
+        {
+          "content": "pic2",
+          "targets": [1, 2]
+        },
+        {
+          "content": "pic4",
+          "targets": [3, 2]
+        }, {
+          "content": "pic2",
+          "targets": [1, 2]
+        },
+        {
+          "content": "pic3",
+          "targets": [0, 3]
+        }
+      ]
+    }, {
+      "game": "page_2",
+      "prefab": "read",
+      "timeout": 3,
+      "imgs": [{
+        "pane/img": "Read_P03.jpg"
+      }],
+      "audios": [{
+        "readAudio": "Audio_P03.mp3",
+        "time": 3
+      }],
+      "read_texts": [
+        "Yet these odd couples live together. This is called a symbiotic relationship.",
+        "Yet these odd couples live together. This is called a symbiotic relationship.3",
+        "Yet these odd couples live together. This is called a symbiotic relationship.222"
+      ],
+      "texts": [{
+
+      }],
+      "words": [
+        ["school", "tool", "home", "name"],
+        ["couples", "together"],
+        ["symbiotic", "relationship"]
+      ]
+    }, {
+      "game": "P02",
+      "prefab": "part",
+      "readAudio": "audio_PART_1.mp3",
+      "partNum": "1",
+      "title": "Let's Learn",
+      "img": "pages/part/part1.png"
+    }, {
+      "game": "page2",
+      "prefab": "drag_multiple",
+      "type": "img",
+      "title": {
+        "text": "Yet these odd couples live together. This is called a symbiotic relationship.",
+        "center": "This is a center message in center node."
+      },
+      "grooves": [{
+          "content": "",
+          "tip": "symbiotic relationship"
+        },
+        {
+          "content": "",
+          "tip": "Yet these odd"
+        },
+        {
+          "content": "",
+          "tip": "Yet these odd"
+        }
+      ],
+      "drags": [{
+          "content": "pic2",
+          "targets": [0, 1]
+        },
+        {
+          "content": "pic4",
+          "targets": [1, 3]
+        },
+        {
+          "content": "pic4",
+          "targets": [0, 3]
+        },
+        {
+          "content": "pic2",
+          "targets": [1, 2]
+        },
+        {
+          "content": "pic4",
+          "targets": [3, 2]
+        }, {
+          "content": "pic2",
+          "targets": [1, 2]
+        },
+        {
+          "content": "pic3",
+          "targets": [0, 3]
+        }
+      ]
+    },
+    {
+      "game":"page_25",
+      "prefab":"end"
+    }
+  ]
+}
+
+
