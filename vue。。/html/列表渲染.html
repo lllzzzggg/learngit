@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Vue Demo</title>
+    <script src="../dist/vue.js"></script>
+    <style type="text/css">
+        .static{
+            border: 1px solid #000;
+            background-color: gray; 
+            padding: 30px;
+        }
+        .active{
+            color: aliceblue;
+        }
+        .text-danger{
+            color: aqua;
+        }
+        .com{
+            width: 100%;
+            min-height: 33px;
+            background-color: blue; 
+        }
+    </style>
+  </head>
+  <body>
+    <div id = "vm">
+        <!-- <ul>                      在 v-for 块中，我们拥有对父作用域属性的完全访问权限。v-for 还支持一个可选的第二个参数为当前项的索引。
+            <li v-for="(item, key) of items" :key = "item.id">
+                {{ key }} :{{ item.message }}
+            </li>
+        </ul> -->
+        <!-- <ul class="static">        也可以用 v-for 通过一个对象的属性来迭代。
+            <li v-for="value in object">
+              {{ value }}
+            </li>
+        </ul> -->
+
+        <!-- <ul>                       类似于 v-if，你也可以利用带有 v-for 的 <template> 渲染多个元素
+            <template v-for = "item in items">
+                <li>{{ item.message }}</li>
+                <li class = "com"></li>
+            </template>
+        </ul> -->
+        <!-- <ol>                        对于已经创建的实例，Vue 不能动态添加根级别的响应式属性。但是，可以使用 Vue.set(object, key, value) 方法向嵌套对象添加响应式属性
+            <li v-for = "value in userProfile">
+                {{ value }}
+            </li>
+        </ol> -->
+        <!-- <ol class="static">           我们想要显示一个数组的过滤或排序副本，而不实际改变或重置原始数据。在这种情况下，可以创建返回过滤或排序数组的计算属性。
+            <li v-for = "n in evenNumber">
+                {{ n }}
+            </li>
+        </ol> -->
+        <input v-model="newTodoText"
+                v-on:keyup.enter="addNewTodo"
+                placeholder="add a todo"
+        >
+        <ul>
+            <li is="todo-item"
+                v-for="(todo,index) in todos"
+                v-bind:key="todo.id"
+                v-bind:title="todo.title"
+                v-on:remove="todos.splice(index,1)"
+            >
+            </li>
+        </ul>
+        
+    </div>
+    
+  <script src="../js/ul.js"></script>
+  </body>
+</html>

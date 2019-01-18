@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Vue Demo</title>
+    <script src="../dist/vue.js"></script>
+    <style type="text/css">
+        .static{
+            border: 1px solid #000;
+            background-color: gray; 
+            padding: 30px;
+        }
+        .com{
+            width:100%;
+            min-height: 33px;
+            background-color: blue; 
+        }
+    </style>
+  </head>
+  <body>
+    <div id = "vm">
+       <select v-model = "selected">
+           <option v-for = "option in options" v-bind:value = "option.value">
+               {{ option.text }}
+           </option>
+       </select>
+       <span>Selected: {{ selected }}</span>
+       <div v-bind:class="{ 'static' : isA, 'com': !isA}" @click="toggle"></div>
+    </div>
+  <script src="../js/function.js"></script>
+  </body>
+</html>

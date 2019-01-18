@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Vue Demo</title>
+    <script src="../dist/vue.js"></script>
+  </head>
+  <body>
+    <div id="app">
+        <!-- <div :style="{ fontSize: postFontSize + 'em' }">
+            <blog-post
+                v-for="post in posts"
+                v-bind:key="post.id"
+                v-bind:post="post"
+                v-on:enlarge-text="onEnlargeText"
+            ></blog-post>
+        </div> -->
+
+        <!-- <custom-input v-model="searchText"></custom-input>
+        <p>Message is: {{ searchText }}</p> -->
+
+        <!-- <text-document :show.sync='valueChild'></text-document>
+        <button @click="changeValue">toggle</button> -->
+
+        <!-- <test-child></test-child> -->
+        <test-father></test-father>
+    </div>  
+  </body>
+  <!-- <script src="dist/axios.min.js"></script>
+  <script src="dist/lodash.min.js"></script> -->
+  <script type="text/javascript">
+        Vue.component('text-document',{
+            props:['show'],
+            template:`
+            <div v-if="show">
+                <p>默认初始值是{{show}}，所以是显示的</p>
+                <button @click.stop="closeDiv">关闭</button>
+            </div>
+            `,
+            methods: {
+                closeDiv() {
+                    this.$emit('update:show', false); //触发 input 事件，并传入新值
+                }
+            }
+        })
+        Vue.component('test-child',{
+            props:['title','show'],
+            template:`
+            <div v-if="show">    
+                name:<input v-model="nn"><br>
+                title:<input v-model="tt">
+                <button @click="closeDiv">关闭</button>
+            </div>
+            `,
+            data(){
+                return {
+                    tt:this.title,
+                    nn:this.name,
+                }
+            },
+            methods: {
+                closeDiv() {
+                    console.log("closeDiv")
+                    this.$emit('update:show', false); //触发 input 事件，并传入新值
+                }
+            },
+            watch:{
+                nn(val){
+                    //设置监听，如果改变就更新 
+                    this.$emit('updata:title', val)
+                    console.log(val)
+                }
+            }
+        })
+        Vue.component('test-father',{
+            template:`
+                <div>
+                    <input v-model="title">
+                    <test-child :show.sync="ifShow"></test-child>
+                    <p>{{ title }}</p>
+                    <button @click="changeValue">toggle</button>
+                    
+                </div>
+            `,
+            data(){
+                return{
+                    ftt:'',
+                    fnn:'',
+                    title:'',
+                    ifShow:true
+                }
+            },
+            methods:{
+                fatherEV(val){
+                    console.log('fatherEv====>>>>>' + val)
+                },
+                changeValue(){
+                    this.ifShow = !this.ifShow
+                }
+            },
+            watch:{
+                title(val){
+                    console.log('father'+val)
+                }
+            }
+        })
+        Vue.component('blog-post',{
+            props:['post'],
+            template: `
+            <div>
+                <h3>{{ post.content }}</h3>
+                <p>{{ post.title }}</p>
+                <button v-on:click="$emit('enlarge-text',0.1)"
+                >Enlarge text</button>
+            </div>
+            `
+        })
+        Vue.component('custom-input',{
+            props:['value'],
+            template: `
+                <input 
+                    v-bind:value="value"
+                    v-on:input="$emit('input', $event.target.value)"
+                >
+            `
+        })
+        new Vue({
+            el: '#app',
+            // data:{
+            //     posts:[
+            //         { id: 1, title: 'My journey with Vue',content:'one'},
+            //         { id: 2, title: 'Blogging with Vue' ,content:'two'},
+            //         { id: 3, title: 'Why Vue is so fun' ,content:'three'}
+            //     ],
+            //     postFontSize:1,
+            //     searchText:'',
+            //     title:''
+            // },
+            data(){
+                return{
+                    valueChild:true,
+                    ftt:'',
+                    fnn:'',
+                    title:''
+                }
+            },
+            methods:{
+                onEnlargeText: function (enlargeAmount) {
+                    this.postFontSize += enlargeAmount
+                },
+                changeValue(){
+                    this.valueChild = !this.valueChild
+                }
+            }
+        })
+        
+  </script>
+</html>

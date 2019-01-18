@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Vue Demo</title>
+    <script src="../dist/vue.js"></script>
+    <style>
+    @media screen  and (min-width: 0px) and (max-width: 1366px) {
+        .left{
+            height: 300px;
+            width: 70%;
+            background: #f00
+        }
+        .right{
+            height: 300px;
+            width: 30%;
+            background: #0f0
+        }
+    }
+    @media screen and (min-width: 1366px) and (max-width: 1920px) {
+        .left{
+            height: 300px;
+            width: 80%;
+            background: #f00
+        }
+        .right{
+            height: 300px;
+            width: 20%;
+            background: #0f0
+        }
+    }
+    div{
+        float:left
+    }
+    </style>
+  </head>
+  <body>
+    <!-- <div class="left"></div>
+    <div class="right"></div> -->
+    
+    <div id="app">
+        <input v-model.trim="msg" >
+        <span>{{ msg }}</span>
+    </div>
+  </body>
+  <script>
+    var app = new Vue({
+        el: '#app',
+        data:{
+            msg:''
+        }
+    })
+  </script>
+  <!-- <script src="dist/axios.min.js"></script>
+  <script src="dist/lodash.min.js"></script> -->
+</html>

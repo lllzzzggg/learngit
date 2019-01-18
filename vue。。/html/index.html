@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Vue Demo</title>
+    <script src="../dist/vue.js"></script>
+  </head>
+  <body>
+    <div id="app">
+        <p v-bind:title="message">
+            {{ message }}
+        </p>
+        <p>Computed reversed message: "{{ reversedMessage }}"</p>
+        <input v-model = "message">
+        <button v-on:click = "niFu">逆抚</button>
+
+        <ol>
+            <item v-for = "it in items"
+                  v-bind:todo = "it"
+                  v-bind:key = "it.id">
+            </item>
+        </ol>
+    </div>
+    
+  </body>
+  <!-- <script src="dist/axios.min.js"></script>
+  <script src="dist/lodash.min.js"></script> -->
+  <script type="text/javascript">
+    Vue.component('item',{
+        props:['todo'],
+        template:'<li>{{ todo.text }}</li>'
+    })
+
+    var app = new Vue({
+        el: "#app",
+        data:{
+            message:"Hello,Vue!",
+            items:[
+                { id: 0 ,text: 'line1'},
+                { id: 1 ,text: 'line2'},
+                { id: 2 ,text: 'line3'}
+            ]
+        },
+        methods:{
+            niFu:function(){
+                this.message = this.message.split('').reverse().join('');
+            }
+        },
+        created:function(){
+            console.log("time:" + new Date().toLocaleString())
+        },
+        computed:{
+            reversedMessage:function(){
+                return this.message.split('').reverse().join('')
+            }
+        }
+    });
+
+  </script>
+</html>
